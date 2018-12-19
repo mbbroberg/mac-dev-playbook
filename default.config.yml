@@ -6,9 +6,9 @@ configure_sudoers: yes
 configure_terminal: yes
 configure_osx: yes
 
-dotfiles_repo: https://github.com/geerlingguy/dotfiles.git
+dotfiles_repo: https://github.com/mbbroberg/dotfiles.git
 dotfiles_repo_accept_hostkey: yes
-dotfiles_repo_local_destination: ~/Dropbox/Development/GitHub/dotfiles
+dotfiles_repo_local_destination: ~/Documents/Development/dotfiles
 dotfiles_files:
   - .bash_profile
   - .gitignore
@@ -20,29 +20,27 @@ homebrew_installed_packages:
   # - ansible # Installed via Pip.
   - autoconf
   - bash-completion
-  - doxygen
-  - gettext
-  - gifsicle
   - git
   - go
   - gpg
   - hub
-  - httpie
-  - iperf
-  - libevent
-  - sqlite
-  - mcrypt
   - nmap
   - node
   - nvm
-  - php
   - ssh-copy-id
   - cowsay
-  - readline
   - openssl
   - pv
   - wget
-  - wrk
+  - jq
+  - exercism
+  - git-extras
+  - imagemagick
+  - watch
+  - tree
+  - zsh
+  - zsh-completions
+  - zsh-syntax-highlighting
 
 homebrew_taps:
   - homebrew/core
@@ -50,25 +48,34 @@ homebrew_taps:
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
-  - chromedriver
   - docker
-  - dropbox
   - firefox
   - google-chrome
-  - handbrake
   - licecap
-  - limechat
-  - macvim
-  - sequel-pro
   - skitch
   - slack
-  - sublime-text
-  - transmit
   - vagrant
+  - alfred
+  - atom
+  - betterzipql
+  - evernote
+  - google-drive
+  - iterm2
+  - levelator
+  - macdown
+  - qlcolorcode
+  - qlmarkdown
+  - qlstephen
+  - quicklook-json
+  - skype
+  - spectacle
+  - suspicious-package
+  - virtualbox
+  - vlc
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps: []
-mas_email: ""
+mas_email: "" ##TODO
 mas_password: ""
 
 osx_script: "~/.osx --no-restart"

@@ -41,6 +41,7 @@ homebrew_installed_packages:
   - zsh
   - zsh-completions
   - zsh-syntax-highlighting
+  - direnv 
 
 homebrew_taps:
   - homebrew/core
@@ -72,6 +73,8 @@ homebrew_cask_apps:
   - suspicious-package
   - virtualbox
   - vlc
+  - ccat 
+  - tree 
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps: []
